@@ -57,7 +57,7 @@ domElements.resultPage.addEventListener('click', e=>{
 
  const controlRecipe =  async () =>{
     // getting ID
-    const ID    =   window.location.hash.replace("#", "")
+    const ID    =   window.location.hash.replace("#", "");
 
     if(ID) {
         //prepare Ui for Changes
